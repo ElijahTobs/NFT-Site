@@ -7,46 +7,77 @@ body{
 
 /* typography */
 
-h1{
-  color: whitesmoke;
-  font-size: 36px;
+h1, h3 {
   margin: 0;
 }
 
+h1{
+  color: whitesmoke;
+  font-size: 36px;
+}
+
 h2{
-  margin: 0;
+  margin-top: 0;
 }
 
 h3{
   color: #d0aaff;
   font-size: 20px;
-  margin:0;
 }
+
+p {
+  line-height: 23px;
+}
+
 
 /* links */
 
 a{
   color: #ef5839;
-  text-decoration: underline dotted; 
+  padding: 10px 19px;
+  border-radius: 4.6px;
+  font-weight: 500;
+  text-decoration: none;
 }
 
-a:hover{
+a:hover, a:active{
   color: #d4b44c;
 }
 
-a:active{
-  color: #d4b44c;
+.crafting {
+  padding: 0;
+  text-decoration: underline dotted;
+}
+
+.buy {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.buy:hover,
+.buy:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.more, .contact {
+  background-color: #f0e0ff;
+  color: #5f29a3;
+}
+
+.about {
+  background-color: whitesmoke;
+  color: #5f29a3;
 }
 
 /* layout */
 
-header{
-  background-color: #5f29a3;
+header, section, footer {
   padding: 45px 0;
 }
 
-section{
-  padding: 45px 0;
+header, .section-two{
+  background-color: #5f29a3;
 }
 
 .container{
@@ -54,8 +85,32 @@ section{
   margin: 0 auto;
 }
 
-.main-image{
+.sneaker-img{
   width:100%;
 }
 
+.section-one {
+  border: 2px solid red;
+}
+
+.section-two {
+  color: whitesmoke;
+  padding-bottom: 0;
+}
+
+.sect-2-img {
+  width: 300px;
+  border-radius: 4.6px;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer{
+  text-align: center;
+  padding: 45px 0;
+  color: #5f29a3;
+}
 
