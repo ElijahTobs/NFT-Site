@@ -32,13 +32,13 @@ p {
 
 /* links */
 
-a{
-  color: #ef5839;
+.btn{
+  margin: 10px;
   display: inline-block;
   padding: 10px 19px;
   border-radius: 4.6px;
   font-weight: 500;
-  text-decoration: none;
+  text-decoration: none; 
 }
 
 a:hover, a:active{
@@ -48,6 +48,7 @@ a:hover, a:active{
 .crafting {
   padding: 0;
   text-decoration: underline dotted;
+  color: #ef5839;
 }
 
 .buy {
@@ -55,8 +56,8 @@ a:hover, a:active{
   color: whitesmoke;
 }
 
-.buy:hover,
-.buy:active {
+.btn:hover,
+.btn:active {
   background-color: #f3e885;
   color: #2b283a;
 }
@@ -70,6 +71,8 @@ a:hover, a:active{
   background-color: whitesmoke;
   color: #5f29a3;
 }
+
+
 
 /* layout */
 
