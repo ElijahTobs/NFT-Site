@@ -33,7 +33,7 @@ p {
 /* links */
 
 .btn{
-  margin: 10px;
+  margin: 10px 10px 10px 0;
   display: inline-block;
   padding: 10px 19px;
   border-radius: 4.6px;
@@ -99,7 +99,6 @@ header, .section-two{
 
 .section-two {
   color: whitesmoke;
-  padding-bottom: 0;
 }
 
 .sect-2-img {
