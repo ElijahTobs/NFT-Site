@@ -4,7 +4,7 @@
 
 ## Description
 
-![image](images/mobile.png)
+![image](images/nft-screenshot.png)
 
 > A simple stylish NFT SIte.
 
